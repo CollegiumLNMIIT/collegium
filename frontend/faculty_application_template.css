@@ -1,0 +1,15 @@
+body{
+	font-size: 100%;
+}
+
+header{
+	border : 3px black dotted;
+	font-size: 150%;
+	text-align: center;
+}
+
+.box{
+	width: 300px;
+	height: 150px;
+	border: 1px solid black;
+}
