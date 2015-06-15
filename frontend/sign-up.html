@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- START OF THE SIGN-UP PAGE OF THE COLLEGIUM -->
+<html lang="en-US">
+
+	<head>
+		<title>Sign-Up - Collegium</title>
+		<meta name="description" content="Free Web tutorials">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="Siddharth Nahar" >
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="sign-up.css"> 
+	</head>
+
+	<body>
+		<!-- START OF HEADING OF THE ACCOUNT PAGE/ MIGHT INSERT A IMAGE HERE -->
+		<header>
+			<a href="http://lnmiit.ac.in" target="_blank">
+			<h1 >
+				The LNM Institute of Information Technology
+			</h1>
+			</a>
+		</header>	
+		<!-- END OF HEADING OF SIGN-UP PAGE -->
+
+		<!-- START OF SIGN UP OF STUDENT BLOCK -->
+		<div style = "float: left">
+			<p style = "border:3px black dotted;text-align: center;">
+				Sign-Up as a Student
+			</p>
+			<form action="action_page.php" > <!-- action has to be 
+			replaced with the appropriate value and more attributes have to be added -->
+				<fieldset>
+					<legend>Student Details:</legend>
+					First Name&nbsp: <input type="text" name="firstname" placeholder ="first name">
+					<!-- placeholder needed to be changed of name -->
+					<br />
+					Last Name &nbsp: <input type="text" name="lastname" placeholder="last name">
+					<!-- placeholder needed to be changed of name -->
+					<br />
+					Password :&#09 <input type="password" name="pwd" placeholder="password">
+					<br>
+					Email-id :&#09 <input type="text" name="emailid" placeholder="email">
+					<br>
+					Roll-No. :&#09 <input type="text" name="rollno" placeholder="roll no.">
+					<br>
+					Tagline about you :&#09 <input type="text" name="tagline" placeholder="tagline">
+					<br><br>
+					<input type="submit" value="Submit">
+				</fieldset>
+			</form>
+		</div>
+		<!-- END OF SIGN UP OF STUDENT BLOCK -->
+
+		<!-- <div>
+			<hr width="1" size="500">
+		</div> -->
+
+		<!-- START OF SIGN UP OF FACULTY BLOCK -->
+		<div style = "float: right">
+			<p style = "border:3px black dotted;text-align: center;">
+				Sign-Up as a Faculty
+			</p>
+			<form action="action_page.php" > <!-- action has to be 
+			replaced with the appropriate value and more attributes have to be added -->
+				<fieldset>
+					<legend>Faculty Details:</legend>
+					First Name&nbsp: <input type="text" name="firstname" placeholder="first name">
+					<!-- placeholder needed to be changed of name -->
+					<br />
+					Last Name &nbsp: <input type="text" name="lastname" placeholder="last name">
+					<!-- placeholder needed to be changed of name -->
+					<br />
+					Password :&#09 <input type="password" name="pwd" placeholder="password">
+					<br>
+					Email-id :&#09 <input type="text" name="emailid" placeholder="email">
+					<br>
+					SSN :&#09 <input type="text" name="ssn" placeholder="ssn">
+					<br><br>
+					<input type="submit" value="Submit">
+				</fieldset>
+			</form> 
+		</div>
+		<!-- END OF SIGN UP OF FACULTY BLOCK -->
+		<footer>
+			©
+		</footer>
+	</body>
+</html> 
